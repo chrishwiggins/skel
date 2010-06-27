@@ -1,0 +1,9 @@
+s/+/-/g
+s/^\\documentclass/+\\documentclass/
+s/^\\newcommand/+\\newcommand/
+s/^\\begin{document}/+\\begin{document}/
+s/^\\section/+\\section/
+s/\\cite/\n+\\cite/g
+s/^\\subsection/+\\subsection/
+s/^\\bibliography/+\\bibliography/
+s/^\\end{document}/+\\end{document}/
